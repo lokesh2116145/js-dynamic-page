@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Responsive Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="lokesh">
+                <a class="nav-link" href="# " style="color: black;" >Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about" style="color: black;">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact" style="color: black;">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Grid System -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Column 1</h2>
+            <p>Content for the first column.</p>
+        </div>
+        <div class="col-md-4">
+            <h2>Column 2</h2>
+            <p>Content for the second column.</p>
+        </div>
+        <div class="col-md-4">
+            <h2>Column 3</h2>
+            <p>Content for the third column.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Cards -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images (1).jpg" class="card-img-top" alt="Image 1" >
+                <div class="card-body">
+                    <h5 class="card-title">Card title 1</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.flipkart.com/" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="download.png" class="card-img-top" alt="Image 2">
+                <div class="card-body">
+                    <h5 class="card-title">Card title 2</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.amazon.in/" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="6484173c2b6fb_com.meesho.supply.png" class="card-img-top" alt="Image 3">
+                <div class="card-body">
+                    <h5 class="card-title">Card title 3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.meesho.com/" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="container" id="about">
+    <div class="row">
+        <div class="col">
+            <h2 >About Us</h2>
+            <p>We are a company dedicated to providing the best services. Our team is skilled and experienced in various fields.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="container" id="contact">
+    <div class="row">
+        <div class="col">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
